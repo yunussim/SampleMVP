@@ -5,7 +5,7 @@ extern "C"
 JNIEXPORT jstring
 
 JNICALL
-Java_com_gmail_yunussimulya_tmdbmvp_SplashActivity_stringFromJNI(
+Java_com_gmail_yunussimulya_tmdbmvp_activity_SplashActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     std::string hello = "Hello from C++";

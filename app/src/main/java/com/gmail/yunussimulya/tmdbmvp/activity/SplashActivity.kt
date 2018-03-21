@@ -1,14 +1,12 @@
-package com.gmail.yunussimulya.tmdbmvp
+package com.gmail.yunussimulya.tmdbmvp.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.gmail.yunussimulya.tmdbmvp.R
 import kotlinx.android.synthetic.main.activity_splash.*
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : BaseActivity() {
 
     companion object {
-
-        // Used to load the 'native-lib' library on application startup.
         init {
             System.loadLibrary("native-lib")
         }
